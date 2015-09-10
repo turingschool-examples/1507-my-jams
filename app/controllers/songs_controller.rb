@@ -40,6 +40,6 @@ class SongsController < ApplicationController
     end
 
     def load_song
-      @song = Song.find(params[:id])
+      @song = Song.find_by(slug: params[:slug])
     end
 end
