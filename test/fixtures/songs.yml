@@ -3,7 +3,5 @@
 one:
   title: MyString
   artist: MyString
+  slug: my-slug
 
-two:
-  title: MyString
-  artist: MyString
