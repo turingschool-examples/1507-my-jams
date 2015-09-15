@@ -8,7 +8,6 @@ class UserAddsASongTest < ActionDispatch::IntegrationTest
     fill_in "song[title]", with: "Hot Tubbin'"
     fill_in "song[artist]", with: "Clarence & the Machine"
     click_on "Create Song"
-    # Fill in the form
     assert_equal songs_path, current_path
   end
 end
